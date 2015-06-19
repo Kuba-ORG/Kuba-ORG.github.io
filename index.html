@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<html>
+        <head>
+                <title>Bootstrap 3</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link href = "css/bootstrap.min.css" rel = "stylesheet">
+                <link href = "css/styles.css" rel = "stylesheet">
+				<link href="css/half-slider.css" rel="stylesheet">
+				<meta charset="utf-8">
+				
+        </head>
+        <body>
+                <!-- NAVBAR -->
+                <div class = "navbar navbar-inverse navbar-fixed-top">
+                        <div class = "container">
+                               
+							    <div navbar-header>
+                                
+                               
+                                <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                                        <span class = "icon-bar"></span>
+                                        <span class = "icon-bar"></span>
+                                        <span class = "icon-bar"></span>
+                                </button>
+								
+								
+								<a class="navbar-brand" href="#">
+											<div class="navbar-brand-name">
+												<img id="brand-image" src="img/uologo.png"/>
+													 Ultima Online
+											</div>
+										</a>
+							
+								</div>
+								
+                               
+                                <div class = "collapse navbar-collapse navHeaderCollapse">
+                               
+                                        <ul class = "nav navbar-nav navbar-right">
+                                       
+                                                <li class = "active"><a href = "#">Strona Główna</a></li>
+                                                <li><a href = "#">Forum</a></li>
+                                                <li class = "dropdown">
+                                                       
+                                                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Media Społecznościowe <b class = "caret"></b></a>
+                                                        <ul class = "dropdown-menu">
+                                                                <li><a href = "#">Twitter</a></li>
+                                                                <li><a href = "#">Facebook</a></li>
+                                                                <li><a href = "#">Google+</a></li>
+                                                                <li><a href = "#">Instagram</a></li>
+                                                        </ul>
+                                               
+                                                </li>
+                                                <li><a href = "#contact" data-toggle="modal">Kontakt</a></li>
+                                       
+                                        </ul>
+                               
+                                </div>
+                               
+                        </div>
+                </div>
+                <!-- SRODKOWA CZĘŚĆ -->
+					<br><br><br>
+					
+					<!-- SLIDER -->
+					<header id="myCarousel" class="carousel slide">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+						</ol>
+
+						<!-- Wrapper for Slides -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<!-- Set the first background image using inline CSS below. -->
+								<div class="fill" style="background-image:url('img/6.jpg');"></div>
+								<div class="carousel-caption">
+									<h2>Klimat</h2>
+								</div>
+							</div>
+							<div class="item">
+								<!-- Set the second background image using inline CSS below. -->
+								<div class="fill" style="background-image:url('img/5.jpg');"></div>
+								<div class="carousel-caption">
+									<h2>Ciekawe rozgrywki Player vs Player</h2>
+								</div>
+							</div>
+							<div class="item">
+								<!-- Set the third background image using inline CSS below. -->
+								<div class="fill" style="background-image:url('img/7.jpg');"></div>
+								<div class="carousel-caption">
+									<h2>Unikatowy Świat</h2>
+								</div>
+							</div>
+						</div>
+
+
+
+					</header>
+					
+					<!-- TEKST -->
+					<div class = "container">
+										<p>Witaj na stronie poświęconej najstarszej grze MMORPG - Ultima Online, na której dowiesz się wielu fascynujących faktów o niej oraz przekonasz się że stare gry - które niegdyś święciły triumfy i biły wszelkie rekordy popularności zarówno w powszechnej świadomości jak i w ilości graczy będących online - wcale nie są przestarzałe i nienadające się do gry w erze gier 3D. Wiele osób zaczynających swoją przygodę z grami jest zafascynowanych jedynie propozycjami z mega przyjemnymi dla oka grafikami, które rzeczywiście są na swój sposób ciekawe, lecz bardzo często mają bardzo słabą i mało rozbudowaną mechanikę - w przeciwieństwie do gdy o której właśnie czytasz, o reszcie dowiesz się w pozostałej części witryny.</p>
+					</div>
+					
+					<!-- CZĘŚĆ Z BACKGROUND IMAGE -->
+					<div class = "jumbotron">
+						<div class="alt1 padding" id="about">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-4">
+									<h2 class="text-center">O grze</h2>
+									<p class="text-justify">Ultima Online (UO) – gra komputerowa typu MMORPG, wydana 30 kwietnia 1997 przez firmę Origin Systems. Jest jedną z najstarszych tego rodzaju gier. Rozgrywka toczy się w świecie fantasy znanym z serii Ultima.</p>
+									<a href="#jeden" class="btn btn-default">Pokaż więcej...</a>
+								</div>
+								<div class="col-md-4">
+									<h2 class="text-center">Może w nią zagram?</h2>
+									<p class="text-justify">Zalet, które przemawiają za zagraniem w Ultimę jest bardzo dużo, ale chyba takim najważniejszym powodem który sprawia że powinno się w nią zagrać jest klimat gry. Co się kryje pod nazwą klimat? </p>
+									<a href="#dwa" class="btn btn-default">Pokaż więcej...</a>
+								</div>
+								<div class="col-md-4">
+									<h2 class="text-center">Na jakim shardzie?</h2>
+									<p class="text-justify">W Ultimę można grać na serwerze oficjalnym, który jest płatny oraz na darmowych emulatorach prywatnych. </p>
+									<a href="#trzy" class="btn btn-default">Pokaż więcej...</a>
+								</div>
+							
+							</div>
+						</div>	
+					</div>
+					</div>
+					
+					<!-- DOLNA CZĘŚĆ -->
+					<div class="container" id="portfolio">
+						<div class="row padding" id="jeden">
+							<div class="col-md-6">
+								<img src="img/1.jpg" class="img-circle img-responsive" alt="Circular holding image"/>
+							</div>
+							<div class="col-md-6">
+								<h2 class="text-center">O grze</h2>
+								<p class="text-justify">Ultima Online (UO) – gra komputerowa typu MMORPG, wydana 30 kwietnia 1997 przez firmę Origin Systems. Jest jedną z najstarszych tego rodzaju gier. Rozgrywka toczy się w świecie fantasy znanym z serii Ultima. Do listopada 2006 r. wydanych zostało sześć dodatków, w których stopniowo rozbudowywano podstawową wersję m.in. o nowe potwory, umiejętności oraz miejsca.
+								Jej głównym twórcą i niejako "ojcem chrzestnym" jest Richard Garriott znany również jako Lord British. Aktualnie właścicielem praw autorskich do Ultimy Online jest Electronic Arts.
+								Gra jest obsługiwana przez oficjalną sieć 29 serwerów zlokalizowanych we wszystkich strefach czasowych świata. Największa popularność gra zyskała w Japonii. Po wydaniu dodatku Samurai Empire, Japończycy stanowią najliczniejszą grupę graczy. Dla Polaków dostępne są trzy shardy oficjalne: Europa, Castskills, Drachenfells.
+								Abonament miesięczny umożliwiający grę w Ultimę Online wynosi 15 euro. Istnieje również możliwość zakupu tak zwanych kart GameTime, które działają tak jak telefoniczne karty przedpłacone.
+								Obecnie twórcy pracują nad nową wersją Ultimy Online, zwaną Ultima Online: Stygian Abyss. Nowa wersja Ultimy Online będzie aktualizowała wyłącznie wersję Kingdom Reborn. </p>			
+							</div>
+						</div>	
+						<hr />
+						
+						<div class="row padding" id="dwa">
+							<div class="col-md-6">
+								<h2 class="text-center">Może w nią zagram?</h2>
+								<p class="text-justify">Zalet, które przemawiają za zagraniem w Ultimę jest bardzo dużo, ale chyba takim najważniejszym powodem który sprawia że powinno się w nią zagrać jest klimat gry. Co się kryje pod nazwą klimat? Nie jest to na pewno nic związanego z czynnikami atmosferycznymi, jest to w tym konkretnym przypadku odgrywanie ról fikcyjnych postaci żyjących w okresie średniowiecza przez każdego z graczy. </p>
+								
+							</div>
+							<div class="col-md-6">
+								<img src="img/2.jpg" class="img-circle img-responsive" alt="Circular holding image"/>
+							</div>
+						</div>
+						<hr />
+						<div class="row padding" id="trzy">
+							<div class="col-md-6">
+								<img src="img/3.jpg" class="img-circle img-responsive" alt="Circular holding image"/>
+							</div>
+							<div class="col-md-6">
+								<h2 class="text-center">Na jakim shardzie?</h2>
+								<p class="text-justify">W Ultimę można grać na serwerze oficjalnym, który jest płatny oraz na darmowych emulatorach prywatnych. 
+								Emulatory prywatne pojawiły się wkrótce po uruchomieniu tej gry i tworzone są metodą inżynierii wstecznej. Emulatory Ultima Online dają mniejsze możliwości w porównaniu z oficjalnymi serwerami tej gry z racji trudności w uzyskaniu informacji na temat nowych pakietów oraz funkcji. Jednak z drugiej strony free shardy oparte na tego typu emulatorach często wnoszą wiele nowych pomysłów, nowe światy itp., niedostępne w wersji oficjalnej. Osobiście polecam wybranie serwera prywatnego, ponieważ możemy na nim zagrać na polskim oskrypcie wśród polskich graczy i poczuć ten niesamowity klimat panujący w grze.
+								</p>	
+							</div>
+						</div>
+						<hr />
+					</div>
+					
+					<br>
+				
+                <!-- FOOTER -->
+                <div class = "navbar navbar-default navbar-fixed-bottom">
+                        <div class = "container">
+                                <p class = "navbar-text pull-left">&copy; Jakub Markowski</p>
+                                <a href = "#" class = "navbar-btn btn-primary btn pull-right" id="bt" hidden>Powrót to góry</a>
+                        </div>
+               
+                </div>
+                <!-- OKNO DIALOGOWE CONTACT -->
+                <div class = "modal fade" id = "contact" role = "dialog">
+                    <div class = "modal-dialog">
+                        <div class = "modal-content">
+                            <div class = "modal-header">
+                                <h4>Contact Tech Site</h4>
+                            </div>
+                            <div class = "modal-body">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                            </div>
+                            <div class = "modal-footer">
+                        <a class = "btn btn-default" data-dismiss = "modal">Close</a>    
+                                <a class = "btn btn-primary" data-dismiss = "modal">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				
+
+				
+				
+				<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+                <script src = "js/bootstrap.js"></script> 
+				
+				<script>
+					$(function() {
+					  $('a[href*=#]:not([href=#])').click(function() {
+						if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+						  var target = $(this.hash);
+						  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+						  if (target.length) {
+							$('html,body').animate({
+							  scrollTop: target.offset().top
+							}, 1000);
+							return false;
+						  }
+						}
+					  });
+					});
+				
+
+					 
+
+					$(window).scroll(function(){
+						if (window.scrollY > 400) {
+							$('.navbar-btn').fadeIn();
+						} else {
+							$('.navbar-btn').fadeOut();
+						}
+					});
+
+					$('.navbar-btn').click(function () {
+						$("html, body").animate({
+							scrollTop: 0
+						}, 600);
+						return false;
+					});
+					
+					$(window).scroll(function () {
+
+								 // set distance user needs to scroll before we start fadeIn
+							if ($(this).scrollTop() > 100) {
+								$('.navbar-inverse').fadeOut();
+							} else {
+								$('.navbar-inverse').fadeIn();
+							}
+					});
+					
+					$('.carousel').carousel({
+						interval: 5000 
+					})
+					
+					
+				</script>
+        </body>
+</html>
